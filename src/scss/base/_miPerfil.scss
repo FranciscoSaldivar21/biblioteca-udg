@@ -1,0 +1,23 @@
+span{
+    font-weight: bold;
+}
+
+a{
+    cursor: pointer;
+    color: $verde;
+    img{
+        width: 3rem;
+    }
+}
+
+.perfil{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    column-gap: 1rem;
+    margin-top: 4rem;
+    margin-bottom: 10rem;
+}
+
+.datosPerfil{
+    margin-top: 5rem;
+}

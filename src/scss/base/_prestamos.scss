@@ -1,0 +1,22 @@
+.prestamos{
+    p{
+        font-size: 1.5rem;
+        font-weight: 200;
+
+    }
+
+    .prestamo{
+        border: 2px solid black;
+        padding: 10px;
+        margin-bottom: 3rem;
+
+        .botones{
+            a{
+                color: white;
+                background-color: $azulFuerte;
+                padding: 5px 1.5rem 5px 1.5rem;
+                border: 1px solid $verde;
+            }
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.detalle-prestamo{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-detalle{
+    display: flex;
+}
+
+#regresar-catalogo{
+    margin: 5rem;
+}
+
+#pedido-texto{
+    color: $verde;
+}
+
+.elemento-detalle{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    .imagen-detalle{
+        img{
+            width: 10rem;
+            height: 13rem;
+        }
+    }
+}
+

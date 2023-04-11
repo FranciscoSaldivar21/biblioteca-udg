@@ -1,0 +1,61 @@
+.formulario {
+    p {
+        font-size: 1.4rem;
+        color: darken($grisBajo, 8);
+    }
+
+    label {
+        display: block;
+        font-weight: bold;
+        color: black;
+        text-transform: uppercase;
+    }
+
+    legend {
+        font-size: 2rem;
+    }
+
+    select{
+        width: 15rem;
+        height: 3rem;
+        text-align: center;
+    }
+
+    input:not([type="submit"]) {
+        display: block;
+        padding: 1rem;
+        width: 100%;
+        background-color: white;
+        border: 1px solid $grisBajo;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+    }
+
+    select {
+        background-color: white;
+        border: 1px solid $grisBajo;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+    }
+
+    .enviar{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+}
+
+.usuario{
+    margin-bottom: 2rem;
+}
+
+.ingresar{
+    margin-bottom: 3rem;
+}
+
+.libroIsbn{
+    display: none;
+    select{
+        text-align: center;
+        width: 20rem;
+    }
+}

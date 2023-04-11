@@ -1,0 +1,30 @@
+
+.contenido-centrado {
+    max-width: 800px;
+}
+
+.alinear-centro {
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    width: 90%;
+    margin: auto;
+}
+
+.alinear-izquierda {
+    text-align: left;
+}
+
+.alinear-derecha {
+    text-align: right;
+}
+
+.pequeno {
+    max-width: 60%;
+}
+
+.no-margin{
+    margin: 0;
+}

@@ -1,0 +1,22 @@
+
+.footer {
+    padding: calc($separacion / 6) 0; //Eliminó el margen inferior 
+    background-color: $principal;
+    margin-bottom: 0;
+
+    .contenedor-footer {
+        padding: 1rem;
+
+        .navegacion{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+    }
+
+    .copyright {
+        padding: 1rem;
+        color: black;
+        text-align: center;
+    }
+}

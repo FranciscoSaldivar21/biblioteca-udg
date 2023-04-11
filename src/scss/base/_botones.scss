@@ -1,0 +1,30 @@
+.boton{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    font-size: 1.5rem;
+    width: 15rem;
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.verde{
+    border: 2px solid darken($color: $verde, $amount: 10);
+    background-color: $verde;
+    color: white;
+}
+
+.rojo{
+    border: 2px solid darken($color: $rojoFuerte, $amount: 10);
+    background-color: $rojoFuerte;
+    color: white;
+}
+
+.azul{
+    border: 2px solid darken($color: $azulFuerte, $amount: 10);
+    background-color: $azulFuerte;
+    color: white;
+}

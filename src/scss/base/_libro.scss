@@ -1,0 +1,47 @@
+.contenedor-libro{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 5rem;
+    margin-bottom: 6rem;
+    margin-top: 2rem;
+
+    .imagen-libro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 25rem;
+            height: 33rem;
+        }
+    }
+
+    .contenido-libro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p, span{
+            font-size: 1.5rem;
+        }
+
+        span{
+            font-weight: bold;
+        }
+
+        .disponible{
+            color: $verde;
+        }
+
+        .no-disponible{
+            color: $rojoFuerte;
+        }
+
+        .opciones{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 3rem;
+        }
+    }
+}
+

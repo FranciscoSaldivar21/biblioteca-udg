@@ -1,0 +1,87 @@
+.sanciones{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    a{
+        margin-bottom: 5rem;
+    }
+}
+
+#sanciones{
+    table,
+        th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        tr{
+            td{
+                border: 1px solid black;
+
+                a{
+                    color: darken($verde, 10%);
+                }
+            }
+        }
+    table{
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    th{
+        color: $azulFuerte;
+    }
+}
+
+.verSanciones{
+    display: flex;
+    margin-bottom: 3rem;
+} 
+
+.agregar-libro{
+    display: none;
+}
+
+.ingresar{
+    margin-top: 1rem;
+}
+
+.margin{
+    margin-top: 1rem;
+}
+
+.ocultar{
+    display: none;
+}
+
+.agregar-libro{
+    select{
+        height: 4rem;
+        width: 22rem;
+    }
+}
+
+.libro-sancionado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    border: 2px solid gray;
+    margin: 1rem;
+
+    a{
+        color: red;;
+    }
+}
+
+
+.elementos{
+    display: flex;
+    flex-direction: row;
+
+    .elemento-detalle{
+        margin-right: 1rem;
+    }
+}
